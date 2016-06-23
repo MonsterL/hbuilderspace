@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin/feature.presenter.1.7.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="js/jquery-css-transform.js"></script>
+    <script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js">
+    </script>
+    <script src="js/html5zoo.js"></script>
+    <script src="js/lovelygallery.js"></script>
+    <script type="text/javascript" src="js/index_ie9.js"></script>
+    <style>
+        .warp{width:810px;height: 900px;background: #06a3e0;margin: auto;}
+        .circle{float:left;position: relative; width:800px;height: 800px;border-radius: 50%;border:5px solid #ffffff;margin-top:80px;}
+        #pic0{position: absolute;width: 112px;height: 112px;background: url('images/nav/jzsy.png') no-repeat; top:-61px;left: 380px;}
+        #pic1{position: absolute;width: 112px;height: 112px;background: url('images/nav/gywm.png') no-repeat; top:25px;left: 600px;}
+        #pic2{position: absolute;width: 112px;height: 112px;background: url('images/nav/cpfw.png') no-repeat; top:200px;left: 720px;}
+        #pic3{position: absolute;width: 112px;height: 112px;background: url('images/nav/jypz.png') no-repeat; top:500px;left: 720px;}
+        #pic4{position: absolute;width: 112px;height: 112px;background: url('images/nav/hyfw.png') no-repeat; top:650px;left: 600px;}
+        #pic5{position: absolute;width: 112px;height: 112px;background: url('images/nav/xxzx.png') no-repeat; top:750px;left: 380px;}
+        #pic6{position: absolute;width: 112px;height: 112px;background: url('images/nav/zcfg.png') no-repeat; top:650px;left: 80px;}
+        #pic7{position: absolute;width: 112px;height: 112px;background: url('images/nav/xzzx.png') no-repeat; top:500px;left: -20px;}
+        #pic8{position: absolute;width: 112px;height: 112px;background: url('images/nav/lxwm.png') no-repeat; top:200px;left: -20px;}
+        #pic9{position: absolute;width: 112px;height: 112px;background: url('images/nav/yqlj.png') no-repeat; top:25px;left: 100px;}
+        
+    </style>
+    <title>主页</title>
+</head>
+<body>
+    <div class="logo">
+        <div class="logo-c">
+        </div>
+    </div>
+    <div class="main">
+        <div class="nav">
+            <ul class="nav_1">
+                <li id="nav_1_jzsy"><a href="#">九州首页</a></li>
+                <li id="nav_1_gywm"><a href="#">关于我们</a></li>
+                <li id="nav_1_cpfw"><a href="#">产品服务</a></li>
+                <li id="nav_1_jypz"><a href="#">交易品种</a></li>
+                <li id="nav_1_hyfw"><a href="#">会员服务</a></li>
+                <li id="nav_1_xxzx"><a href="#">信息中心</a></li>
+                <li id="nav_1_zcfg"><a href="#">政策法规</a></li>
+                <li id="nav_1_xzzx"><a href="#">下载中心</a></li>
+                <li id="nav_1_lxwm"><a href="#">联系我们</a></li>
+                <li id="nav_1_yqlj"><a href="#">友情链接</a></li>
+            </ul>
+
+            <div class="nav_2"  id="circle-element">
+                <div class="warp">
+                    <ul class="circle">
+                        <li id="pic0">0</li>
+                        <li id="pic1">1</li>
+                        <li id="pic2">2</li>
+                        <li id="pic3">3</li>
+                        <li id="pic4">4</li>
+                        <li id="pic5">5</li>
+                        <li id="pic6">6</li>
+                        <li id="pic7">7</li>
+                        <li id="pic8">8</li>
+                        <li id="pic9">9</li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+        <div class="viewPort">
+            <div class="scrollNews">
+                <div class="title"></div>
+                <marquee width="960px" height="40px" direction="left" behavior="scroll" loop="infinite" scrollamount="7" onmouseover=stop() onmouseout=start()>
+                    <ul>
+                        <li><a href="#">关于中心近期遭受网络攻击的特别公告</a></li>
+                        <li><a href="#">青岛市大宗商品现货交易市场</a></li>
+                        <li><a href="#">关于端午节假期正常开市的通知</a></li>
+                        <li><a href="#">九州邮币卡官方网站今日正式上线</a></li>
+                        <li><a href="#">关于调整客户履约准备金及风险率标准的通知</a></li>
+                    </ul>
+                </marquee>
+            </div>
+
+            <div class="chart_fw">
+                <div class="hqchart">
+                    <div class="title">
+                        <label class="active_hq">现货铜</label>
+                        <label>现货白银</label>
+                        <label>93#汽油</label>
+                    </div>
+                    <div class="chart">
+                        <img src="images/chart_ex.png">
+                    </div>
+                    <div class="chartfooter"></div>
+                </div>
+                <div class="jzfw">
+                    <h3>九 州 服 务</h3>
+                    <div class="sp-row cjwt">
+                        <img src="images/index-jzfw_cjwt.png" id="pic2">
+                    </div>
+                    <div class="sp-row hycx">
+                        <img src="images/index-jzfw_hycx.png" id="pic3">
+                    </div>
+                    <div class="sp-row hysq">
+                        <img src="images/index-jzfw_hysq.png" id="pic4">
+                    </div>
+                    <div class="sp-row xxfk">
+                        <img src="images/index-jzfw_xxfk.png" id="pic5">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pics_wrap">
+                
+                <!-- 轮播图 -->
+                <div id="html5zoo-1">
+                    <ul class="html5zoo-slides" style="display:none;">
+                        <li><a href="#"><img src="images/index-banner1.png" /></a></li>
+                        <li><a href="#"><img src="images/index-banner2.png" /></a></li>
+                        <li><a href="#"><img src="images/index-banner3.jpg" /></a></li>
+                        <li><a href="#"><img src="images/index-banner4.jpg" /></a></li>
+                        <li><a href="#"><img src="images/index-banner5.jpg" /></a></li>
+                    </ul>
+                </div>
+               
+                <div class="bannerfooter"></div>
+            </div>
+
+            <div class="dtgg">
+                <div class="zxdt" >
+                    <div class="title">
+                        <label>中心动态</label>
+                    </div>    
+                    <div class="dtnr">
+                        <div class="top"></div>
+                        <img src="images/zxdt_img.png" onmouseover="showMask(this)">
+                    </div>
+
+                    <div class="mask">
+                        <ul>
+                            <li><span>·</span><a href="#">“九州油”隆重上线，开启原油交易新篇章！</a></li>
+                            <li><span>·</span><a href="#">九州商品交易类会员上线！ 探索新模式践行金融创新先驱者使命</a></li>
+                            <li><span>·</span><a href="#">安全交易典范！九州邮币卡斥资数百万打造专属软硬件服务系统</a></li>
+                            <li><span>·</span><a href="#">九州邮币卡官方微信公众平台今日正式上线</a></li>
+                            <li><span>·</span><a href="#">九州邮币卡特邀恒生软件工程师做软件系统指导培训</a></li>
+                            <!-- <li><span>·</span><a href="#">青岛公布大宗商品现货交易市场投诉电话及合规交易所名单</a></li>
+                            <li><span>·</span><a href="#">江西省金融办领导莅临青岛九州商品交易中心参观考察</a></li>
+                            <li><span>·</span><a href="#">九州商品交易系统2.0上线 六大特色创新体验</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="zxgg">
+                    <div class="title">
+                        <label>中心公告</label>
+                    </div>
+                    <div class="ggnr">
+                        <div class="top"></div>
+                        <img src="images/zxgg_img.png" onmouseover="showMask(this)">
+                    </div>
+
+                    <div class="mask">
+                        <ul>
+                            <li><span>·</span><a href="#">关于调整交易时间的通知</a></li>
+                            <li><span>·</span><a href="#">关于“九州油”上线的通知</a></li>
+                            <li><span>·</span><a href="#">关于调整部分商品交易时间的通知</a></li>
+                            <li><span>·</span><a href="#">关于再次强调规范市场宣传的通知</a></li>
+                            <li><span>·</span><a href="#">关于农行银商通上线的通知</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dtggfooter"></div>
+            </div>
+
+
+            <ul class="hydt">
+                <li>
+                    <div id="hydt_1">
+                        <div class="title">
+                            <label>会员动态</label>
+                        </div>
+                        <div class="info">
+                            <div class="imgcontainer">
+                                <img src="images/hydt_1.png">
+                            </div>
+
+                            <ul>
+                                <li><a href="#" title="祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！">祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！</a></li>
+                                <li><a href="#" title="天润华泽（110会员）官方网站，微信公众平台全面上线">天润华泽（110会员）官方网站，微信公众平台全面上线</a></li>
+                                <li><a href="#" title="青岛北金电子商务有限公司官方公众微信平台在正式上线">青岛北金电子商务有限公司官方公众微信平台在正式上线</a></li>
+                                <li><a href="#" title="青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信">青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信</a></li>
+                                <li><a href="#" title="祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！">祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div id="hydt_2">
+                        <div class="title">
+                            <label>财经资讯</label>
+                        </div>
+                        <div class="info">
+                            <div class="imgcontainer">
+                                <img src="images/hydt_2.png">
+                            </div>
+                            <ul>
+                                <li><a href="#" title="原油供需再平衡之路漫长">原油供需再平衡之路漫长</a></li>
+                                <li><a href="#" title="互联网金融被“正名”，告别莽荒时代">互联网金融被“正名”，告别莽荒时代</a></li>
+                                <li><a href="#" title="正确认识金融发展、改革与稳定的关系">正确认识金融发展、改革与稳定的关系</a></li>
+                                <li><a href="#" title="国际原油有望滑入“低价时代”">国际原油有望滑入“低价时代”</a></li>
+                                <li><a href="#" title="油气上游改革破冰 新疆6个常规油气区块公开招标">油气上游改革破冰 新疆6个常规油气区块公开招标</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div id="hydt_3">
+                        <div class="title">
+                            <label>政策法规</label>
+                        </div>                       
+                        <div class="info">
+                            <div class="imgcontainer">
+                                 <img src="images/hydt_3.png">
+                            </div>
+                           
+
+                            <ul>
+                                <li><a href="#" title="发改委研究起草《全国碳排放权交易管理条例（草案）》提交国务院">发改委研究起草《全国碳排放权交易管理条例（草案）》提交国务院</a></li>
+                                <li><a href="#" title="国务院：保持人民币汇率在合理均衡水平上基本稳定">国务院：保持人民币汇率在合理均衡水平上基本稳定</a></li>
+                                <li><a href="#" title="国务院关于大力发展电子商务 加快培育经济新动力的意见">国务院关于大力发展电子商务 加快培育经济新动力的意见</a></li>
+                                <li><a href="#" title="商务局《关于推进大宗商品交易市场规范健康发展的意见》">商务局《关于推进大宗商品交易市场规范健康发展的意见》</a></li>
+                                <li><a href="#" title="打造国内贸易行业标准 《商品交易市场信息化建设规范》起草">打造国内贸易行业标准 《商品交易市场信息化建设规范》起草</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div id="hydt_4">
+                        <div class="title">
+                            <label>友情链接</label>
+                        </div>
+                        <div class="info">
+                            <div class="imgcontainer">
+                                <img src="images/hydt_4.png">
+                            </div>
+
+                            <ul>
+                                <li><a href="#" title="祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！">祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！</a></li>
+                                <li><a href="#" title="天润华泽（110会员）官方网站，微信公众平台全面上线">天润华泽（110会员）官方网站，微信公众平台全面上线</a></li>
+                                <li><a href="#" title="青岛北金电子商务有限公司官方公众微信平台在正式上线">青岛北金电子商务有限公司官方公众微信平台在正式上线</a></li>
+                                <li><a href="#" title="青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信">青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信</a></li>
+                                <li><a href="#" title="祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！">祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    
+            <img src="images/hydt_footer.png" height="33px">
+
+            <div class="yqlj_marquee">
+                <marquee direction="left" behavior="scroll" loop="infinite" scrollamount="7" onmouseover=stop() onmouseout=start()>
+                    <ul>
+                        <li><a href="#"><img src="images/index-hzhb2.jpg"></a></li>
+                    </ul>
+                </marquee>
+            </div>
+
+            <div class="yqlj_footer">
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="foot">
+                <div class="left">
+                    <ul>
+                        <li>招贤纳士/</li>
+                        <li>法律声明/</li>
+                        <li>隐私政策/</li>
+                        <li>网站地图/</li>
+                        <li>联系我们</li>
+                    </ul>
+                    <br>
+                    <p>
+                        CopyRight © 2014 青岛九州商品交易中心有限公司 All Right Reserved.&nbsp鲁ICP备15014036号-1
+                        <br>
+                        地址：青岛市市南区东海西路5号华银大厦26层&nbsp&nbsp联系电话：400-999-8368 
+                    </p>
+
+                    <img src="images/pic.gif">
+                </div>
+                <div class="center">
+                    <img src="images/yyzz.png">
+                </div>
+                <div class="right">
+                    <p>
+                        扫一扫
+                        <br>
+                        关注青岛九州商品
+                        <br>
+                        官方微信
+                    </p>
+                    <img src="images/jzewm.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

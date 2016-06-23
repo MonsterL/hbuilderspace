@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/public.css" rel="stylesheet" type="text/css">
+    <link href="../css/ejym.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+    <title>会员申请页面</title>
+    <style type="text/css">
+        .sqlb li{
+            display:block;
+            height:40px;
+        }
+        .newbtn{
+            background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+            background: -moz-linear-gradient(top, #fff, #ededed);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+            color:#606060;
+            border:solid 1px #b7b7b7;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            height:30px;
+            padding:0 30px;
+            border-radius:5px;
+            font-size:14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="logo-c">
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-n">
+            <ul>
+                <li><a href="../index.html">九州首页</a></li>
+                <li><a href="gywm.html">关于我们</a></li>
+                <li><a href="jzcj.html">九州产金</a></li>
+                <li><a href="zxfw.html">中心服务</a></li>
+                <li class="active"><a href="xxzx.html">信息中心</a></li>
+                <li><a href="hyfw.html">会员服务</a></li>
+                <li><a href="hydl.html">会员登录</a></li>
+                <li><a href="zcfg.html">政策法规</a></li>
+                <li><a href="xzzq.html">下载专区</a></li>
+                <li><a href="lxwm.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="viewPort">
+        <div class="banner">
+            <img src="../images/lby_banner.png">
+        </div>
+
+        <div class="content">
+            <div class="c_left">
+                <label class="title">信息中心</label>
+                <ul>
+                    <li class="selected" onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">行情数据</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">中心动态</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">中心公告</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">会员动态</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">财经资讯</a><div class="selectedright"></div></li>
+                </ul>
+
+                <img src="../images/ejym/ejym_xxzx.png" alt="信息中心">
+            </div>
+            
+            <div class="c_right lby_c_right">
+                <span><a href="#"> 九 州 首 页 </a> > <a href="#"> 反 馈 留 言 </a></span>
+                <div class="formcontent">
+                    <h1>投资者降低交易保证金比例的申请</h1>  
+                    <br/>
+                    <ul class="sqlb">
+                        <li>
+                            <label class="lbl" style="width:160px;">会员编号:</label>
+                            <input type="text" class="ipt" />
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <label class="lbl" style="width:160px;">登录账号:</label>
+                            <input type="tel" class="ipt" />
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <label class="lbl" style="width:160px;">姓名:</label>
+                            <input type="email" class="ipt"/>
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <label class="lbl" style="width:160px;">身份证号:</label>
+                            <input type="text" class="ipt"/>
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <label class="lbl" style="width:160px;">身份证正面照片上传:</label>
+                            <input type="file" class="ipt"/>
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <label class="lbl" style="width:160px;">身份证反面照片上传:</label>
+                            <input type="file" class="ipt"/>
+                            <div class="clear"></div> 
+                        </li>
+                        <li style="position:relative;">
+                            <label class="lbl" style="width:160px;">手持风险揭示书半身照上传:</label>
+                            <input type="file" class="ipt"/>
+                            <span style="position:absolute;color:red;font-size:12px;top:25px;">&nbsp&nbsp&nbsp&nbsp&nbsp*请自行下载打印并签署风险揭示书</span>
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <label class="lbl"  style="width:160px;">验证码:</label>
+                            <div class="clear"></div> 
+                        </li>
+                        <li>
+                            <input type="checkbox" style="position:relative;top:-12px;">
+                            <label style="display:inline-block;width:680px;text-align:center;  font-size: 12px;  color: #323232;">我已阅读并接受【调整交易保证金风险揭示书】的内容，且以上填写内容为本人真实信息，如有误，一切风险和损失由本人自己承担。<label>
+                        </li>
+                        <li>
+                            <input value="提&nbsp&nbsp交" class="newbtn"  style="margin-left:80px;" type="button"/>
+                            <input value="重&nbsp&nbsp置" class="newbtn" style="margin-left:20px;" type="button"/>
+                        </li>
+                    </ul>
+                    <br/>
+                    <br/>
+                </div>             
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot">
+            <div class="left">
+                <ul>
+                    <li>招贤纳士/</li>
+                    <li>法律声明/</li>
+                    <li>隐私政策/</li>
+                    <li>网站地图/</li>
+                    <li>联系我们</li>
+                </ul>
+                <br>
+                <p>
+                    CopyRight © 2014 青岛九州商品交易中心有限公司 All Right Reserved.&nbsp鲁ICP备15014036号-1
+                    <br>
+                    地址：青岛市市南区东海西路5号华银大厦26层&nbsp&nbsp联系电话：400-999-8368 
+                </p>
+
+                <img src="../images/pic.gif">
+            </div>
+            <div class="center">
+                <img src="../images/yyzz.png">
+            </div>
+            <div class="right">
+                <p>
+                    扫一扫
+                    <br>
+                    关注青岛九州商品
+                    <br>
+                    官方微信
+                </p>
+                <img src="../images/jzewm.png">
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+    });
+</script>
+</html>

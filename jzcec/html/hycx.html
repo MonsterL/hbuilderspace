@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/public.css" rel="stylesheet" type="text/css">
+    <link href="../css/ejym.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+    <title>会员查询</title>
+</head>
+<body>
+    <div class="logo">
+        <div class="logo-c">
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-n">
+            <ul>
+                <li><a href="../index.html">九州首页</a></li>
+                <li><a href="gywm.html">关于我们</a></li>
+                <li><a href="jzcj.html">九州产金</a></li>
+                <li><a href="zxfw.html">中心服务</a></li>
+                <li><a href="xxzx.html">信息中心</a></li>
+                <li class="active"><a href="hyfw.html">会员服务</a></li>
+                <li><a href="hydl.html">会员登录</a></li>
+                <li><a href="zcfg.html">政策法规</a></li>
+                <li><a href="xzzq.html">下载专区</a></li>
+                <li><a href="lxwm.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="viewPort">
+        <div class="banner">
+            <img src="../images/ny-banner.png">
+        </div>
+
+        <div class="content">
+            <div class="c_left">
+                <label class="title">会员服务</label>
+                <ul>
+                    <li class="selected" onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">综合会员名单</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">会员类别</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">入会指南</a><div class="selectedright"></div></li>
+                    <li onmouseover="$(this).addClass('selected');" onmouseout="$(this).removeClass('selected')"><div class="selectedleft"></div><a href="#">入会申请</a><div class="selectedright"></div></li>
+                </ul>
+
+                <img src="../images/ejym/ejym_hyfw.png">
+            </div>
+            
+            <div class="c_right">
+                <span><a href="#"> 九 州 首 页 </a> > <a href="#"> 会 员 名 单 </a></span>
+                <label> 会 员 名 单 </label>
+                <div class="queryform">
+                    <input type="text"/>
+                    <div id="querybtn">查询</div>
+                </div>
+
+
+                <table cellspacing="0" cellpadding="4" class="table_body" id="GridView1" style="color:#333333;border-collapse:collapse;">
+                    <tbody>
+                        <tr class="bgcolor" align="center" style="color:White;background-color:#0d357f;font-weight:bold;">
+                            <th scope="col">会员编号</th>
+                            <th scope="col">会员名称</th>
+                            <th scope="col">会员网站</th>
+                            <th scope="col">会员类别</th>
+                        </tr>
+                        <tr >
+                            <td>001</td>
+                            <td>测试会员名单</td>
+                            <td>http://115.28.68.163/webadmin/main.aspx</td>
+                            <td>产业会员</td>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>测试会员名单</td>
+                            <td>http://115.28.68.163/webadmin/main.aspx</td>
+                            <td>产业会员</td>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>测试会员名单</td>
+                            <td>http://115.28.68.163/webadmin/main.aspx</td>
+                            <td>产业会员</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+
+
+                <!-- <ul class="table_title">
+                    <li style="width:100px;"><label>编号</label></li>
+                    <li style="width:260px;"><label>会员名称</label></li>
+                    <li style="width:195px;"><label>网址</label></li>
+                    <li style="width:90px;"><label>类别</label></li>
+                </ul>
+                
+                <table class="table_body" border="0" cellspacing="0">
+                    <tbody>
+                        <tr class="huise">
+                            <td width="98" style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;">001</label>
+                            </td>
+                            <td width="258" style="border-right:1px solid #c6c6c6;"><label style="width:258px;">重庆万捷通投商务信息咨询有限公司</label></td>
+                            <td width="193" style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;">www.baidu.com</label>
+                            </td>
+                            <td width="88px" style="border-right:1px solid #c6c6c6;">
+                                 <label style="width:88px;">01</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;">002</label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;">重庆万捷通投商务信息咨询有限公司</label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;">www.google.cn</label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;">02</label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;">003</label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;">重庆万捷通投商务信息咨询有限公司</label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;">www.qq.com</label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;">02</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                           <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr class="huise">
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;">
+                                <label style="width:98px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:258px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:193px;"></label>
+                            </td>
+                            <td style="border-right:1px solid #c6c6c6;">
+                                <label style="width:88px;"></label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> -->
+            </div>
+
+            <img class="right_footer" src="../images/lby-main_bottom.png">            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="foot">
+            <div class="left">
+                <ul>
+                    <li>招贤纳士/</li>
+                    <li>法律声明/</li>
+                    <li>隐私政策/</li>
+                    <li>网站地图/</li>
+                    <li>联系我们</li>
+                </ul>
+                <br>
+                <p>
+                    CopyRight © 2014 青岛九州商品交易中心有限公司 All Right Reserved.&nbsp鲁ICP备15014036号-1
+                    <br>
+                    地址：青岛市市南区东海西路5号华银大厦26层&nbsp&nbsp联系电话：400-999-8368 
+                </p>
+
+                <img src="../images/pic.gif">
+            </div>
+            <div class="center">
+                <img src="../images/yyzz.png">
+            </div>
+            <div class="right">
+                <p>
+                    扫一扫
+                    <br>
+                    关注青岛九州商品
+                    <br>
+                    官方微信
+                </p>
+                <img src="../images/jzewm.png">
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+    });
+</script>
+</html>

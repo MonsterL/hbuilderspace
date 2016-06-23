@@ -1,0 +1,151 @@
+@charset "utf-8";
+body,
+div,
+p {
+  margin: 0px;
+  padding: 0px;
+  background-size: 100%;
+}
+body {
+  line-height: 1.2;
+  font-family: "Microsoft YaHei";
+}
+body {
+  background-color: #f0f0f0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+ul {
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
+/*logo*/
+.logo {
+  width: 100%;
+  height: 65px;
+}
+.logo-c {
+  width: 1100px;
+  height: 65px;
+  margin: auto;
+}
+.logo-c .left_logo {
+  float: left;
+  padding-top: 11px;
+}
+.logo-c .right_logo {
+  float: right;
+  padding-top: 11px;
+  padding-right: 15px;
+  line-height: 50px;
+}
+.logo-c .dh_body {
+  display: none;
+}
+.logo-c #head_jzewm_container {
+  float: right;
+  width: 85px;
+  height: 10px;
+  position: relative;
+  display: none;
+}
+.logo-c #head_jzewm_container #head_jzewm {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10000;
+}
+.viewPort {
+  width: 1100px;
+  margin: auto;
+}
+.footer {
+  float: left;
+  width: 100%;
+  height: 140px;
+  background: #0d357f;
+}
+.footer .foot {
+  position: relative;
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+.footer .foot .left {
+  float: left;
+  width: 650px;
+  height: 100%;
+  font-family: '宋体';
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.footer .foot .left li {
+  float: left;
+}
+.footer .foot .left .cnzz {
+  position: absolute;
+  bottom: 32px;
+  left: 530px;
+  width: 50px;
+  height: 12px;
+}
+.footer .foot .left .cert {
+  position: absolute;
+  top: 25px;
+  left: 350px;
+  width: 114px;
+  height: 41px;
+}
+.footer .foot .left .aqlm {
+  position: absolute;
+  top: 25px;
+  left: 470px;
+  width: 114px;
+  height: 41px;
+}
+.footer .center {
+  float: left;
+  width: 150px;
+  height: 100%;
+}
+.footer .center img {
+  display: block;
+  padding-top: 20px;
+  margin: auto;
+  width: 110px;
+  height: 85px;
+}
+.footer .right {
+  float: left;
+  width: 300px;
+}
+.footer .right p {
+  float: left;
+  height: 100%;
+  font-family: '宋体';
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-top: 35px;
+  padding-left: 70px;
+}
+.footer .right img {
+  display: block;
+  padding-top: 20px;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  padding-left: 20px;
+}

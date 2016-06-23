@@ -1,0 +1,265 @@
+/*
+ * base.less
+ * LESS 技巧函数
+ * author: SL
+ */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.placeholder {
+  color: #888888;
+}
+input::-webkit-input-placeholder {
+  color: #888888;
+}
+input::-moz-placeholder {
+  color: #888888;
+}
+textarea::-webkit-input-placeholder {
+  color: #888888;
+}
+textarea::-moz-placeholder {
+  color: #888888;
+}
+.text-autocut {
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-text-overflow: ellipsis;
+  -khtml-text-overflow: ellipsis;
+  -icab-text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.text-hide {
+  display: block;
+  font-size: 0;
+  text-indent: -99999em;
+  color: transparent;
+}
+.wrap {
+  text-wrap: wrap;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  word-wrap: break-word;
+}
+/* 四角的半径定制 */
+/* 用法 */
+/* Mixin */
+/* 用法 */
+/* 转换/旋转 */
+/* 用法 */
+/* 线性渐变 */
+/* 用法 */
+/* 快速渐变 */
+/* 用法 */
+/* 镜像效果 */
+/* 用法 */
+.ib {
+  display: inline-block;
+  *zoom: 1;
+  vertical-align: top;
+}
+/*nav*/
+.nav {
+  width: 100%;
+  height: 54px;
+  border-top: 8px solid #0d357f;
+  background-image: url("../images/lby-nav_bg.png");
+}
+.nav ul li {
+  float: left;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav ul li a {
+  color: #000000;
+  font-weight: 600;
+}
+.nav-n {
+  width: 1100px;
+  margin: 13px auto 0 auto;
+}
+.active {
+  background: #ffffff;
+  color: #83d1f0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.active a {
+  color: #06a3e0 !important;
+}
+.banner {
+  margin: 8px auto 0 auto;
+  width: 1100px;
+}
+.content {
+  margin: 25px auto;
+  width: 1100px;
+}
+.content .c_left {
+  float: left;
+  width: 275px;
+  height: auto;
+  background: #ffffff;
+  padding-bottom: 30px;
+}
+.content .c_left label {
+  display: block;
+  background: #0d357f;
+  height: 30px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+}
+.content .c_left ul {
+  margin: 30px auto 0 auto;
+}
+.content .c_left ul li {
+  position: relative;
+  font-size: 17px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  background: url('../images/lby-mue_bg.png');
+}
+.content .c_left ul li a {
+  color: #000000;
+}
+.content .c_left ul li:hover {
+  background: #06a3e0;
+}
+.content .c_left ul li:hover a {
+  color: #ffffff;
+}
+.content .c_left img {
+  display: block;
+  margin: 30px auto 30px auto;
+}
+.content .c_left .footer_label {
+  padding-bottom: 30px;
+}
+.content .c_left .footer_label center {
+  font-size: 18px;
+  font-family: '微软雅黑';
+  color: #cd4d38;
+  font-weight: bold;
+  padding: 5px 0px;
+  letter-spacing: 4px;
+}
+.content .c_left .selected {
+  background: #06a3e0;
+}
+.content .c_left .selected a {
+  color: #ffffff;
+}
+.content .c_right {
+  width: 800px;
+  height: 585px;
+  float: right;
+  margin-top: -15px;
+}
+.content .c_right .rightitem {
+  margin-left: 10px !important;
+}
+.content .c_right .item {
+  float: left;
+  width: 395px;
+  height: 285px;
+  margin: 15px 0px 0 0;
+}
+.content .c_right .item .title {
+  height: 30px;
+  width: 100%;
+  /* IE 10 */
+  FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#a3a3a3, endColorStr=#f1f1f1);
+  /*IE 6 7 8*/
+  background: -ms-linear-gradient(top, #a3a3a3, #f1f1f1);
+  /*火狐*/
+  background: -moz-linear-gradient(top, #a3a3a3, #f1f1f1);
+  /*谷歌*/
+  /* Safari 4-5, Chrome 1-9*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a3a3a3), to(#f1f1f1));
+  /*Safari5.1 Chrome 10+*/
+  background: -webkit-linear-gradient(top, #a3a3a3, #f1f1f1);
+  /*Opera 11.10+*/
+  background: -o-linear-gradient(top, #a3a3a3, #f1f1f1);
+}
+.content .c_right .item .title label {
+  float: left;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  background: #0d357f;
+  text-align: center;
+  font-family: '微软雅黑';
+  color: #ffffff;
+  border-left: 1px solid #ffffff;
+}
+.content .c_right .item .body {
+  width: 355px;
+  height: 230px;
+  background: #ffffff;
+  padding: 10px 30px 10px 10px;
+  position: relative;
+}
+.content .c_right .item .body p {
+  padding: 20px;
+  font-size: 12px;
+  color: #000000;
+  line-height: 25px;
+}
+.content .c_right .item .body ul {
+  list-style: none;
+}
+.content .c_right .item .body ul li {
+  position: relative;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.content .c_right .item .body ul li label {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  width: 10px;
+  height: 15px;
+  background: url('../images/lby-inc-small.png');
+}
+.content .c_right .item .body ul li a {
+  float: left;
+  color: #000000;
+  font-size: 12px;
+  padding-left: 45px;
+}
+.content .c_right .item .body ul li a:hover {
+  color: #003583 !important;
+}
+.content .c_right .item .body .more {
+  width: 40px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+.content .c_right .item .body .more span {
+  float: left;
+  font-size: 12px;
+  color: #06a3e0;
+  line-height: 30px;
+}
+.content .c_right .item .body .more img {
+  float: left;
+  width: 10px;
+  height: 12px;
+  padding-top: 10px;
+}

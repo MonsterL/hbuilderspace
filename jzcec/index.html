@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="edge" / >
+    <meta name="renderer" content="webkit">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin/feature.presenter.1.7.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin/feature.presenter.1.7.config.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin/flip.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="js/jquery-css-transform.js"></script>
+    <script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
+    <script src="js/html5zoo.js"></script>
+    <script src="js/lovelygallery.js"></script>
+    <script src="js/jquery-scrollable.js"></script>
+    <script type="text/javascript" src="js/feature.presenter.1.7.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <style type="text/css">
+        #temp{
+            label:hover{
+                background-color:#1F3871;
+            };
+        }
+    </style>
+    <!--[if IE 9]>
+    <script type="text/javascript" src="js/index_IE9.js"></script>
+    <style>
+        .warp{width:810px;height: 900px;background: transparent;margin: auto;}
+        .circle{float:left;position: relative; width:800px;height: 800px;border-radius: 50%;border:0px solid #ffffff;margin-top:80px;}
+        #nav0{position: absolute;width: 112px;height: 112px;top:-71px;left: 340px;}
+        #nav1{position: absolute;width: 112px;height: 112px;top:5px;left: 570px;}
+        #nav2{position: absolute;width: 112px;height: 112px;top:210px;left: 725px;}
+        #nav3{position: absolute;width: 112px;height: 112px;top:455px;left: 725px;}
+        #nav4{position: absolute;width: 112px;height: 112px;top:660px;left: 580px;}
+        #nav5{position: absolute;width: 112px;height: 112px;top:740px;left: 340px;}
+        #nav6{position: absolute;width: 112px;height: 112px;top:670px;left: 100px;}
+        #nav7{position: absolute;width: 112px;height: 112px;top:460px;left: -50px;}
+        #nav8{position: absolute;width: 112px;height: 112px;top:200px;left: -50px;}
+        #nav9{position: absolute;width: 112px;height: 112px;top:5px;left: 100px;}
+    </style>
+    <![endif]-->
+
+    <title>主页</title>
+</head>
+<body>
+    <div class="logo">
+        <div class="logo-c">
+            <img src="images/head/head_logo.png" class="left_logo">
+            <label class="right_logo dh_body">热线:4009998368</label>
+            <img id="dh" class="right_logo" src="images/head/head_dh.png">
+            <div id="head_jzewm_container">
+                <img id="head_jzewm" src="images/footer/jzewm.png">
+            </div>
+            <img id="weichat" class="right_logo" src="images/head/head_wx.png">
+            <img id="qq" class="right_logo" src="images/head/head_qq.png">
+        </div>
+    </div>
+    <div class="footerleft"></div>
+    <div class="footerright"></div>
+    <div class="main">
+        <div class="bluetop"></div>
+        <div class="nav">
+            <div class="footerright"></div>
+            <div class="navmask"></div>
+            <div class="navleft"></div>
+            <div class="navright"></div>
+            <ul class="nav_1">
+                <li id="nav_1_jzsy"><a href="#" hidefocus >九州首页</a></li>
+                <li id="nav_1_gywm"><a href="#" hidefocus >关于我们</a></li>
+                <li id="nav_1_jzcj"><a href="#" hidefocus >九州产金</a></li>
+                <li id="nav_1_zxfw"><a href="#" hidefocus >中心服务</a></li>
+                <li id="nav_1_xxzx"><a href="#" hidefocus >信息中心</a></li>
+                <li id="nav_1_hyfw"><a href="#" hidefocus >会员服务</a></li>
+                <li id="nav_1_hydl"><a href="#" hidefocus >会员登录</a></li>         
+                <li id="nav_1_zcfg"><a href="#" hidefocus >政策法规</a></li>
+                <li id="nav_1_xzzq"><a href="#" hidefocus >下载专区</a></li>
+                <li id="nav_1_lxwm"><a href="#" hidefocus >联系我们</a></li>
+            </ul>
+
+            <div class="nav_2"  id="circle-element">
+               
+                <!--[if IE 9]>
+                <script type="text/javascript">
+                    var htmlA = [];
+                    htmlA.push("<div class=\"warp\">");
+                    htmlA.push("    <ul class=\"circle\">");
+                    htmlA.push("        <li id=\"nav0\"><img width=\"116px\" height=\"116px\" src=\"images/nav/jzsy.png\"/></li>");
+                    htmlA.push("        <li id=\"nav1\"><img width=\"116px\" height=\"116px\" src=\"images/nav/gywm.png\"/></li>");
+                    htmlA.push("        <li id=\"nav2\"><img width=\"116px\" height=\"116px\" src=\"images/nav/jzcj.png\"/></li>");
+                    htmlA.push("        <li id=\"nav3\"><img width=\"116px\" height=\"116px\" src=\"images/nav/zxfw.png\"/></li>");
+                    htmlA.push("        <li id=\"nav4\"><img width=\"116px\" height=\"116px\" src=\"images/nav/xxzx.png\"/></li>");
+                    htmlA.push("        <li id=\"nav5\"><img width=\"116px\" height=\"116px\" src=\"images/nav/hyfw.png\"/></li>");
+                    htmlA.push("        <li id=\"nav6\"><img width=\"116px\" height=\"116px\" src=\"images/nav/hydl.png\"/></li>");
+                    htmlA.push("        <li id=\"nav7\"><img width=\"116px\" height=\"116px\" src=\"images/nav/zcfg.png\"/></li>");
+                    htmlA.push("        <li id=\"nav8\"><img width=\"116px\" height=\"116px\" src=\"images/nav/xzzq.png\"/></li>");
+                    htmlA.push("        <li id=\"nav9\"><img width=\"116px\" height=\"116px\" src=\"images/nav/lxwm.png\"/></li>");
+                    htmlA.push("       </ul>");
+                    htmlA.push("     </div>");
+                    $(".nav_2").html(htmlA.join(""));
+                </script>
+                <![endif]-->
+            </div>   
+        </div>
+
+        <div class="viewPort">
+            <div class="jzcjmk">
+                <div class="jzcj" > 
+                    <label class="title"><span></span></label>
+                    <a href="html/jzcj.html"><div class="zxzx"></div></a>
+                    <a href="html/jzcj.html"><div class="pzzn"></div></a>
+                    <a href="html/jzcj.html"><div class="rzfw"></div></a>
+                    <a href="html/jzcj.html"><div class="xhgp"></div></a>
+                    <a href="html/jzcj.html"><div class="spfs"></div></a>
+                    <a href="html/jzsc.html"><div class="jzsc"></div></a>
+                </div>
+                <div class="cjhq">
+                    <label class="lefttitle"><span></span></label>
+                    <ul class="title">
+                        <li  style="width:100px;"><label>名称</label></li>
+                        <li><label>今开</label></li>
+                        <li><label>最新价</label></li>
+                        <li><label>涨跌</label></li>
+                        <li><label>涨跌幅</label></li>
+                        <li><label>成交量</label></li>
+
+                    </ul>
+
+                    <ul class="gdhq">
+                        <li class="oddbg">
+                            <label  style="width:100px;">"同参堂"野山参</label>
+                            <label>元/吨</label>
+                            <label>精制棉级</label>
+                            <label>3650</label>
+                            <label class="red">0</label>
+                            <label>3650</label>
+                        </li>
+                        
+                        
+                    </ul>
+
+                </div>
+
+                <div class="dtggfooter"></div>
+            </div>
+
+            
+
+            <div class="pics_wrap">
+                
+                <!-- 轮播图 -->
+                <div id="html5zoo-1">
+                    <ul class="html5zoo-slides" style="display:none;">
+                        <li><a href="#"><img src="images/index-banner1.png" /></a></li>
+                        <li><a href="#"><img src="images/index-banner2.png" /></a></li>
+                        <li><a href="#"><img src="images/index-banner3.jpg" /></a></li>
+                        <li><a href="#"><img src="images/index-banner4.jpg" /></a></li>
+                        <li><a href="#"><img src="images/index-banner5.jpg" /></a></li>
+                    </ul>
+                </div>
+               
+                <div class="bannerfooter"></div>
+            </div>
+
+            <div class="cf">
+                <div class="leftchart rightfw"  style="float:right;width:540px;position:relative;">
+                    <div style="  FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#a3a3a3, endColorStr=#f1f1f1);
+  background: -ms-linear-gradient(top, #a3a3a3, #f1f1f1);
+  background: -moz-linear-gradient(top, #a3a3a3, #f1f1f1);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a3a3a3), to(#f1f1f1));
+  background: -webkit-linear-gradient(top, #a3a3a3, #f1f1f1);
+  background: -o-linear-gradient(top, #a3a3a3, #f1f1f1);">   
+                        <label class="title" style="margin-left:0px;background:url('images/jzxcp_title.jpg') no-repeat;"></label>        
+                    </div>
+                    <iframe id="jzxcpzz" style="position:absolute;" src="html/zz.html" frameborder="0" height=280 width=540></iframe>
+                    <iframe frameborder="0" height=280 width=540 src="http://v.qq.com/iframe/player.html?vid=m0171r2mscb&tiny=0&auto=0" allowfullscreen></iframe>
+                </div>
+                <div class="rightfw" style="float:left;width:540px;">
+                    <label class="title" style="margin-left:0px;"></label>
+                    <div class="sp-row hyzx">
+                        <a href="html/hyfw.html"> <img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')" src="images/jzfw/jzfw_hyzx.png" id="pic2"></a>
+                    </div>
+
+                    <div class="sp-row jzcj">
+                        <a href="html/hyfw.html"><img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')"  src="images/jzfw/jzfw_jzcj.png" id="pic2"></a>
+                    </div>
+
+                    <div class="sp-row cjwt">
+                        <a href="html/hyfw.html"><img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')" src="images/jzfw/jzfw_cjwt.png" id="pic2"></a>
+                    </div>
+
+                    <div class="sp-row pxzx">
+                        <a href="html/hyfw.html"><img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')" src="images/jzfw/jzfw_pxzx.png" id="pic4"></a>
+                    </div>
+
+                    <div class="sp-row hycx">
+                        <a href="html/hyfw.html"><img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')" src="images/jzfw/jzfw_hycx.png" id="pic3"></a>
+                    </div>
+                    <div class="sp-row hysq">
+                        <a href="html/hyfw.html"><img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')" src="images/jzfw/jzfw_hysq.png" id="pic4"></a>
+                    </div>
+                    <div class="sp-row xxfk">
+                        <a href="html/fkly.html"><img onmouseover="$('.rightfw').find('img').removeClass('pulse'); $(this).addClass('animated pulse')" src="images/jzfw/jzfw_xxfk.png" id="pic5"></a>
+                    </div>
+
+                     
+
+                    <div class="scrollright" style="width:384px;">
+                        <center>
+                            <img src="images/scrollnew_right.png" />
+                            <label>【<a href="###">投资者教育专栏</a>】</label>
+                        </center>
+                    </div>              
+                </div>
+            </div>
+
+            <img src="images/dtgg_footer.png" style="width:1100px;">
+
+            <div class="dtgg">
+                <div class="zxdt" > 
+                    <div class="title">
+                        <label>中心动态</label>
+                    </div>
+                    <div class="Content">
+                        <img class="pic" src="images/dtgg/dtgg_zxdt.png" alt="中心动态">
+                        <ul>
+                            <li><span>·</span><a href="#" title="“九州油”隆重上线，开启原油交易新篇章！新篇章！">“九州油”隆重上线，开启原油交易新篇章！新篇章！</a></li>
+                            <li><span>·</span><a href="#" title="关于调整交易时间的通知">关于调整交易时间的通知</a></li>
+                            <li><span>·</span><a href="#" title="关于“九州油”上线的通知">关于“九州油”上线的通知</a></li>
+                            <li><span>·</span><a href="#" title="关于调整部分商品交易时间的通知">关于调整部分商品交易时间的通知</a></li>
+                            <li><span>·</span><a href="#" title="关于再次强调规范市场宣传的通知">关于再次强调规范市场宣传的通知</a></li>
+                            <li><span>·</span><a href="#" title="关于农行银商通上线的通知">关于农行银商通上线的通知</a></li>
+                        </ul>
+
+                        <div class="more">
+                            <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="zxgg" > 
+                    <div class="title">
+                        <label>中心公告</label>
+                    </div>
+                    <div class="Content">
+                        <img class="pic" src="images/dtgg/dtgg_zxgg.png" alt="中心公告">
+                        <ul>
+                            <li><span>·</span><a href="#">“九州油”隆重上线，开启原油交易新篇章！新篇章！</a></li>
+                            <li><span>·</span><a href="#">关于调整交易时间的通知</a></li>
+                            <li><span>·</span><a href="#">关于“九州油”上线的通知</a></li>
+                            <li><span>·</span><a href="#">关于调整部分商品交易时间的通知</a></li>
+                            <li><span>·</span><a href="#">关于再次强调规范市场宣传的通知</a></li>
+                            <li><span>·</span><a href="#">关于农行银商通上线的通知关于农行银商通上线的通知</a></li>
+                        </ul>
+
+                        <div class="more">
+                            <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dtggfooter"></div>
+            </div>
+            
+            <ul class="hydt">
+                <li>
+                    <div id="hydt_1">
+                        <div class="title">
+                            <label>产金要闻</label>
+                        </div>
+                        <div class="info">
+                            <div class="imgcontainer">
+                                <img src="images/cjyw.png">
+                            </div>
+
+                            <ul>
+                                <li><a href="#" title="祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！">祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！</a></li>
+                                <li><a href="#" title="天润华泽（110会员）官方网站，微信公众平台全面上线">天润华泽（110会员）官方网站，微信公众平台全面上线</a></li>
+                                <li><a href="#" title="青岛北金电子商务有限公司官方公众微信平台在正式上线">青岛北金电子商务有限公司官方公众微信平台在正式上线</a></li>
+                                <li><a href="#" title="青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信">青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信</a></li>
+                                <li><a href="#" title="祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！">祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div id="hydt_2">
+                        <div class="title">
+                            <label>会员动态</label>
+                        </div>
+                        <div class="info">
+                            <div class="imgcontainer">
+                                <img src="images/hydt.png">
+                            </div>
+
+                            <ul>
+                                <li><a href="#" title="祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！">祝贺恒泰鑫、汇聚天下、中金银汇、毕氏商务成功签约九州商品交易中心！</a></li>
+                                <li><a href="#" title="天润华泽（110会员）官方网站，微信公众平台全面上线">天润华泽（110会员）官方网站，微信公众平台全面上线</a></li>
+                                <li><a href="#" title="青岛北金电子商务有限公司官方公众微信平台在正式上线">青岛北金电子商务有限公司官方公众微信平台在正式上线</a></li>
+                                <li><a href="#" title="青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信">青岛九州商品交易中心036号会员青岛富汇通盈电子商务有限公司开通官方微信</a></li>
+                                <li><a href="#" title="祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！">祝贺青岛富汇通盈电子商务有限公司成为青岛九州商品交易中心第036号会员！</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div id="hydt_3">
+                        <div class="title">
+                            <label>财经资讯</label>
+                        </div>
+                        <div class="info">
+                            <div class="imgcontainer">
+                                <img src="images/cjzx.png">
+                            </div>
+                            <ul>
+                                <li><a href="#" title="原油供需再平衡之路漫长">原油供需再平衡之路漫长</a></li>
+                                <li><a href="#" title="互联网金融被“正名”，告别莽荒时代">互联网金融被“正名”，告别莽荒时代</a></li>
+                                <li><a href="#" title="正确认识金融发展、改革与稳定的关系">正确认识金融发展、改革与稳定的关系</a></li>
+                                <li><a href="#" title="国际原油有望滑入“低价时代”">国际原油有望滑入“低价时代”</a></li>
+                                <li><a href="#" title="油气上游改革破冰 新疆6个常规油气区块公开招标">油气上游改革破冰 新疆6个常规油气区块公开招标</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div id="hydt_4">
+                        <div class="title">
+                            <label>政策法规</label>
+                        </div>                       
+                        <div class="info">
+                            <div class="imgcontainer">
+                                 <img src="images/zcfg.png">
+                            </div>
+                           
+
+                            <ul>
+                                <li><a href="#" title="发改委研究起草《全国碳排放权交易管理条例（草案）》提交国务院">发改委研究起草《全国碳排放权交易管理条例（草案）》提交国务院</a></li>
+                                <li><a href="#" title="国务院：保持人民币汇率在合理均衡水平上基本稳定">国务院：保持人民币汇率在合理均衡水平上基本稳定</a></li>
+                                <li><a href="#" title="国务院关于大力发展电子商务 加快培育经济新动力的意见">国务院关于大力发展电子商务 加快培育经济新动力的意见</a></li>
+                                <li><a href="#" title="商务局《关于推进大宗商品交易市场规范健康发展的意见》">商务局《关于推进大宗商品交易市场规范健康发展的意见》</a></li>
+                                <li><a href="#" title="打造国内贸易行业标准 《商品交易市场信息化建设规范》起草">打造国内贸易行业标准 《商品交易市场信息化建设规范》起草</a></li>
+                            </ul>
+
+                            <div class="more">
+                                <a href="#"><span>更多</span><img src="images/index-lb_inc.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    
+            <img src="images/hydt_footer.png" height="33px">
+
+            <div class="yqlj_marquee">
+                <div>
+                    <ul id="marq1">
+                        <li><a href="#"><img src="images/yqlj/yqljlogo1.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo2.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo3.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo4.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo5.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo6.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo7.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo8.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo9.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo10.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo11.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo12.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo13.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo14.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo15.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo16.png"></a></li>
+                        <li><a href="#"><img src="images/yqlj/yqljlogo17.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="yqlj_footer">
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="foot">
+                <div class="left">
+                    <ul>
+                        <li>招贤纳士/</li>
+                        <li>法律声明/</li>
+                        <li>隐私政策/</li>
+                        <li>网站地图/</li>
+                        <li>联系我们</li>
+                    </ul>
+                    <br>
+                    <p>
+                        CopyRight © 2014 青岛九州商品交易中心有限公司
+                        <br/>
+                        All Right Reserved.&nbsp鲁ICP备15014036号-1
+                        <br/>
+                        地址：青岛市市南区东海西路5号华银大厦26层&nbsp&nbsp联系电话：400-999-8368 
+                    </p>
+
+                    <img class="cert" src="images/footer/cert.png"/>
+                    <script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script>
+                    <img class="aqlm" src="http://static.anquan.org/static/outer/image/hy_124x47.png"/>
+
+                    <img class="cnzz" src="images/footer/pic.gif"/>
+                </div>
+                <div class="center">
+                    <img src="images/footer/yyzz.png">
+                </div>
+                <div class="right">
+                    <p>
+                        扫一扫
+                        <br>
+                        关注青岛九州商品
+                        <br>
+                        官方微信
+                    </p>
+                    <img src="images/footer/jzewm.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        //绑定头部单机事件
+        $("#dh").bind('click', function(event) {
+            $("#head_jzewm_container").hide();
+            $(".dh_body").show();
+        });
+
+        $("#weichat").bind('click', function(event) {
+            $(".dh_body").hide();
+            $("#head_jzewm_container").show();
+        });
+
+    });
+</script>
+
+</html>
