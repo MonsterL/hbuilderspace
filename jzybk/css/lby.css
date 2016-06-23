@@ -1,0 +1,327 @@
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.content {
+  margin: 15px auto;
+  width: 1090px;
+}
+.content .left {
+  width: 265px;
+  position: relative;
+  background: #ffffff;
+  padding-bottom: 20px;
+  float: left;
+}
+.content .left .title {
+  font-size: 20px;
+  font-family: '宋体';
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  text-align: center;
+}
+.content .left .ej_title {
+  font-size: 14px;
+  font-family: '宋体';
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 900;
+  position: absolute;
+  top: 42px;
+  width: 100%;
+  text-align: center;
+}
+.content .left .bottom_image {
+  display: block;
+  margin: 0px auto 20px auto;
+}
+.content .left ul {
+  margin: 20px auto ;
+  width: 100%;
+}
+.content .left ul li {
+  position: relative;
+  font-size: 17px;
+  font-family: '微软雅黑';
+  font-weight: 600;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+.content .left ul li a {
+  color: #000000;
+}
+.content .left ul li:hover {
+  background: #75161b;
+}
+.content .left ul li:hover a {
+  color: #ffffff !important;
+}
+.content .left ul li:hover .dottedborder {
+  border: none;
+}
+.content .left ul .dottedborder {
+  width: 200px;
+  margin: 0 auto;
+  height: 1px;
+  border-top: 1px dotted #59514e;
+}
+.content .left .selected {
+  background: #75161b;
+}
+.content .left .selected a {
+  color: #ffffff !important;
+}
+.content .left .selected .dottedborder {
+  border: none;
+}
+.content .left p {
+  padding-left: 45px;
+  font-family: '微软雅黑';
+  margin: 0px;
+  color: #201f1f;
+}
+.content .left .toplabel {
+  font-size: 12px;
+}
+.content .left .phonenum {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e61e19;
+}
+.content .left .emailadd {
+  font-size: 12px;
+}
+.content .right {
+  width: 815px;
+  float: right;
+  background: #ffffff;
+}
+.content .right .title {
+  width: 100%;
+  height: 48px;
+  position: relative;
+}
+.content .right .title > label {
+  color: #75161b;
+  font-family: '微软雅黑';
+  font-size: 14px;
+  position: absolute;
+  bottom: 5px;
+  left: 70px;
+  margin: 0px;
+}
+.content .right .title > span {
+  position: absolute;
+  right: 35px;
+  bottom: 5px;
+  font-size: 12px;
+  font-family: '微软雅黑';
+}
+.content .right .title > span a {
+  color: #010000;
+}
+.content .right .lbcontent {
+  width: 100%;
+  padding: 10px 30px;
+}
+.content .right .lbcontent .lbx li {
+  position: relative;
+  line-height: 45px;
+  height: 45px;
+  width: 728px;
+  margin: auto;
+  border-bottom: 1px dotted #b4b4b4;
+}
+.content .right .lbcontent .lbx li label {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  width: 25px;
+  height: 25px;
+  background: url('../images/lby/lby_tq.png');
+}
+.content .right .lbcontent .lbx li a {
+  float: left;
+  color: #000000;
+  font-size: 12px;
+  padding-left: 65px;
+}
+.content .right .lbcontent .lbx li span {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  line-height: 45px;
+  height: 45px;
+  color: #8c8c8c;
+  font-size: 13px;
+}
+.content .right .lbcontent .lbx li:hover {
+  background: #f4f4f4;
+}
+.content .right #pageInfo {
+  height: 60px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.content .right #pageInfo label {
+  padding-right: 8px;
+}
+.content .right #pageInfo a {
+  padding: 0px 8px 0px 8px;
+}
+.content .right .xqtitle {
+  font-family: '微软雅黑';
+  font-weight: bold;
+}
+.content .right .content {
+  width: 100%;
+  padding: 0 30px 0 30px;
+  font-size: 100%;
+  line-height: 200%;
+  font-family: '宋体';
+}
+.content .right .content img {
+  max-width: 100%;
+}
+.content .right .content #rlx {
+  background: url(../images/lby/lxwm.jpg) center right no-repeat;
+  height: 233px;
+  padding-top: 30px;
+}
+.content .right .content #rlx h1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #e43c3f;
+}
+.content .right .content .lxn {
+  padding: 10px;
+}
+.content .right .content .lxn ul {
+  margin-left: 10px;
+}
+.content .right .content .lxn ul li {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+.content .right .content .yytgsq {
+  width: 100%;
+  height: 570px;
+}
+.content .right .content .yytgsq .toptitle {
+  width: 750px;
+  height: 45px;
+  background: red;
+  margin: auto;
+}
+.content .right .content .yytgsq .toptitle label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 45px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 10px;
+}
+.content .right .content .yytgsq table {
+  border-right: 2px solid #E99314;
+  border-bottom: 2px solid #E99314;
+  margin: auto;
+}
+.content .right .content .yytgsq table td {
+  padding: 0px;
+  margin: 0px;
+  border-left: 2px solid #E99314;
+  border-top: 2px solid #E99314;
+}
+.content .right .content .yytgsq table td label {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-family: '宋体';
+  font-size: 16px;
+}
+.content .right .content .yytgsq table td input {
+  height: 100%;
+  line-height: 45px;
+  border: none;
+  width: 100%;
+  font-family: '宋体';
+  font-size: 20px;
+  padding: 2px 3px 2px 4px;
+}
+.content .right .content .yytgsq table td select {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-family: '宋体';
+  border: none;
+}
+.content .right .content .yytgsq .textarea {
+  width: 750px;
+  height: 220px;
+  margin: auto;
+  border-bottom: 2px solid #E99314;
+  border-right: 2px solid #E99314;
+  border-left: 2px solid #E99314;
+}
+.content .right .content .yytgsq .textarea .left {
+  float: left;
+  height: 100%;
+  width: 123px;
+  border-right: 2px solid #E99314;
+}
+.content .right .content .yytgsq .textarea .left label {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-family: '宋体';
+  font-size: 20px;
+  margin-top: 70px;
+}
+.content .right .content .yytgsq .textarea textarea {
+  float: right;
+  height: 218px;
+  width: 623px;
+  font-size: 16px;
+  font-family: '宋体';
+  padding: 2px 4px 2px 4px;
+}
+.content .right .content .yytgsq #Button1 {
+  display: block;
+  width: 100px;
+  height: 30px;
+  float: right;
+  margin: 10px 10px 10px 0px;
+}
+.content .right .content #txt_title {
+  display: block;
+  width: 550px;
+  height: 30px;
+  font-size: 14px;
+  font-family: '微软雅黑';
+}
+.content .right .content #txt_content {
+  display: block;
+  width: 550px;
+  height: 300px;
+  font-size: 14px;
+  font-family: '微软雅黑';
+  margin-top: 20px;
+}
+.content .right .content #tjxx {
+  display: block;
+  margin-top: 20px;
+}

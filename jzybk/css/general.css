@@ -1,0 +1,168 @@
+/* 通用样式相关 */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: #efefef;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* 网站自定义导航底部相关 */
+/*logo*/
+.logo {
+  width: 100%;
+  height: 100px;
+}
+.logo .logo-c {
+  width: 1080px;
+  height: 100px;
+  margin: auto;
+}
+.logo .logo-c .left_logo {
+  float: left;
+}
+.logo .logo-c .right_logo {
+  float: right;
+  padding-top: 32px;
+  padding-right: 15px;
+  line-height: 50px;
+}
+.logo .logo-c .dh_body {
+  display: none;
+}
+.logo .logo-c .qq_body {
+  display: none;
+}
+.logo .logo-c #head_jzewm_container {
+  float: right;
+  width: 130px;
+  height: 10px;
+  position: relative;
+  display: none;
+}
+.logo .logo-c #head_jzewm_container #head_jzewm {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10000;
+}
+.nav {
+  height: 54px;
+  width: 100%;
+  background: url(../images/nav/nav_bg.png) repeat-x;
+}
+.nav .relative {
+  position: relative;
+}
+.nav .nav_c {
+  width: 1080px;
+  height: 54px;
+  line-height: 54px;
+  margin: auto;
+}
+.nav .nav_c img {
+  margin-top: 8px;
+}
+.nav .nav_c ul {
+  display: inline-block;
+  width: 1004px;
+  padding: 0px;
+  margin-left: 10px;
+}
+.nav .nav_c ul li {
+  float: left;
+  width: 125px;
+  font-family: '微软雅黑';
+  font-size: 17px;
+  height: 54px;
+  line-height: 54px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav .nav_c ul li a {
+  color: #ffffff;
+}
+.nav .nav_c ul li .ej_nav {
+  position: absolute;
+  z-index: 10000;
+  width: 100%;
+  top: 54px;
+  border: 1px solid red;
+  display: none;
+}
+.nav .nav_c ul li .ej_nav .item {
+  position: relative;
+  background-color: rgba(132, 37, 45, 0.9);
+  border-bottom: 1px dotted #DDCACF;
+}
+.nav .nav_c ul li .ej_nav .item a {
+  color: #ffffff;
+}
+.nav .nav_c ul li .ej_nav .active {
+  background-color: rgba(243, 152, 24, 0.9);
+}
+.nav .nav_c .active {
+  background: #f39818;
+  border-bottom: 2px solid #3c3c3c;
+}
+.footer {
+  float: left;
+  width: 100%;
+  height: 140px;
+  background: #75161b;
+  margin-top: 10px;
+}
+.footer .foot {
+  position: relative;
+  width: 1084px;
+  height: 110px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer .foot dl {
+  font-size: 13px;
+  color: #ffffff;
+  display: block;
+  padding-top: 30px;
+  float: left;
+  width: 500px;
+}
+.footer .foot dl dt {
+  font-size: 13px;
+}
+.footer .foot dl dd {
+  margin: 5px 0;
+  margin: 10px 0;
+}
+.footer .foot dl a {
+  font-size: 13px;
+  color: #ffffff;
+}
+.footer .foot ul {
+  overflow: hidden;
+  padding-top: 30px;
+}
+.footer .foot ul li {
+  float: left;
+  margin: 0 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer .foot ul li img {
+  margin-right: 10px;
+}
+.footer .foot ul li span {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 50px;
+  margin-left: 5px;
+}
