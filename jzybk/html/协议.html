@@ -183,39 +183,6 @@
                     	
                     	<input id="page2_syb" style="position: absolute;display:inline-block; width:65px;height:25px;line-height:21px;bottom: 20px;right:200px;font-family: '微软雅黑';font-size: 14px;" type="button" value="上一步" />
                     </div>
-                    
-                    <!--
-                    	作者：370440668@qq.com
-                    	时间：2016-06-20
-                    	描述：第三页 补全信息
-                    -->
-                    <div id="page3" style="width: 100%;height: 100%;display: none;">
-                    	<div style="position:relative;width: 400px;height: 110px;margin: 0 auto;padding-top: 140px;">
-                    		<div style="width: 320px;margin: 5px 0;">
-                    			<label style="font-family: '微软雅黑';font-size: 14px;color: #856345;">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名 ：</label>
-                    			<input id="page3_name" style="display: inline-block;width: 225px;" type="text" name="name" id="name" value="" />
-                    		</div>
-                    		<div style="width: 320px;margin: 5px 0;">
-                    			<label style="font-family: '微软雅黑';font-size: 14px;color: #856345;">身份证号 ：</label>
-                    			<input id="page3_card" style="display: inline-block;width: 225px;" type="text" name="name" id="name" value="" />
-                    		</div>
-                    		<div style="width: 320px;margin: 5px 0;">
-                    			<label style="font-family: '微软雅黑';font-size: 14px;color: #856345;">绑定银行 ：</label>
-                    			<input id="page3_bankname" style="display: inline-block;width: 225px;" type="text" name="name" id="name" value="" />
-                    		</div>
-                    		<div style="width: 320px;margin: 5px 0;">
-                    			<label style="font-family: '微软雅黑';font-size: 14px;color: #856345;">银行卡号 ：</label>
-                    			<input id="page3_banknumber" style="display: inline-block;width: 225px;" type="text" name="name" id="name" value="" />
-                    		</div>
-                    		<span id='page3_xyb' style="display: inline-block;position: absolute;right:0px;top:145px;width:65px; height:70px;border-radius:5px;text-align:center;line-height:70px;background: #705541;font-family: '微软雅黑';font-size: 16px;color: #fff7c2;">下一步</span>
-                    	</div>
-                    	
-                    	<input id="page3_syb" style="position: absolute;display:inline-block; width:65px;height:25px;line-height:21px;bottom: 20px;right:200px;font-family: '微软雅黑';font-size: 14px;" type="button" value="上一步" />
-                    </div>
-                    
-                    <div id="page4">
-                    	<label style="display: block;text-align: center;font-family: '微软雅黑';font-size: 24px;color: #7f6349;padding-top: 220px;">提交成功！</label>
-                    </div>
                 </div>
 
 	    	</div>
@@ -319,47 +286,6 @@
 			$("#page2_syb").bind("click", function(){
 				$("#page2").hide();
 				$("#page1").show();
-			})
-			
-			$("#page2_xyb").bind('click', function(){
-				var nameval = $("#page2_name").val();
-				
-				if(!nameval){
-					alert("请输入登录用户名");
-				}else {
-					//校验验证码
-					
-					
-					//通过后下一步
-					$("#page2").hide();
-					$("#page3").show();
-				}
-			})
-			
-			$("#page3_syb").bind("click", function(){
-				$("#page3").hide();
-				$("#page2").show();
-			})
-			
-			$("#page3_xyb").bind('click', function(){
-				var nameval = $("#page3_name").val();
-				var cardval = $("#page3_card").val();
-				var bankname = $("#page3_bankname").val();
-				var banknumber = $("#page3_banknumber").val();
-				
-				if(!nameval){
-					alert("请输入姓名");
-				}else if(!cardval){
-					alert("请输入身份证号");
-				}else if(!bankname){
-					alert("请输入绑定银行");
-				}else if(!banknumber){
-					alert("请输入银行卡号");
-				}else {
-					//通过后下一步
-					$("#page3").hide();
-					$("#page4").show();
-				}
 			})
 		});
 	</script>

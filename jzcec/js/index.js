@@ -1490,13 +1490,13 @@ $(document).ready(function() {
         duration: 60000,
         scrollCount: 0
     });
-    //$(".gdhq").scrollable({
-    //    direction: "top",
-    //    height: "190",
-    //    scrollCount: 0,
-    //    duration: 8000,
-    //    delay: 0
-    //});
+      $(".gdhq").scrollable({
+          direction: "top",
+          height: "190",
+          scrollCount: 0,
+          duration: 8000,
+          delay: 0
+      });
     //绑定九州服务模块的事件
     $(".sp-row").bind("mouseleave", function(){
         $(this).find('img').removeClass("pulse");

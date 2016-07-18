@@ -1,0 +1,95 @@
+.lvzbao-footer {
+	background: #ffffff;
+}
+
+
+/**
+ * 合作金融机构
+ */
+.lvzbao-footer-CooperativeFinancialInstitutions {
+	height: 254px;
+	border-bottom: 1px solid #dddddd;
+	background-color: #f5f6f7;
+	padding-bottom: 20px;
+}
+.lvzbao-footer-CooperativeFinancialInstitutions-title {
+	width: 1200px;
+	margin: 0 auto;
+	font: normal 24px/1 "Microsoft YaHei";
+	color: #444444;
+	padding: 30px 0 10px;
+}
+.lvzbao-footer-CooperativeFinancialInstitutions-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+.lvzbao-footer-CooperativeFinancialInstitutions-content img {
+	margin: 12px 8px 0 0;
+	cursor: pointer;
+}
+
+
+/**
+ * 连接区域
+ */
+.lvzbao-footer-info {
+	height: 242px;
+	width: 1200px;
+	margin: 0 auto;
+	background: url(../images/footer/bg.gif) no-repeat center center;
+}
+
+.lvzbao-footer-info-links{
+	width: 550px;
+	float: left;
+}
+.lvzbao-footer-info-links-item{
+	width: 33.33333%;
+	float: left;
+}
+
+.lvzbao-footer-info-links h4{
+	margin: 50px 0 20px;
+	font: normal 18px/1 "Microsoft YaHei";
+	color: #7f7f7f;
+}
+
+.lvzbao-footer-info-links a{
+	font: normal 14px/1 "Microsoft YaHei";
+	color: #ababab;
+}
+
+
+.lvzbao-footer-info-qrcode {
+	width: 310px;
+	float: left;
+}
+.lvzbao-footer-info-qrcode img{
+	margin: 50px 40px 0 0;
+}
+
+.lvzbao-footer-info-telephone {
+	width: 330px;
+	float: left;
+}
+.lvzbao-footer-info-telephone > h1 {
+	margin: 50px 0 0 0;
+	font: normal 27px/1 "Microsoft YaHei";
+	color: #fd2523;
+}
+.lvzbao-footer-info-telephone > p {
+	margin: 15px 0 0 0;
+	font: normal 14px/1 "Microsoft YaHei";
+	color: #ababab;
+	width: auto;
+}
+
+
+
+/**
+ * 版权
+ */
+.lvzbao-footer-copyright {
+	height:53px;
+	background: #3b4554 url(../images/footer/footer-2.png) no-repeat center center; 
+}
